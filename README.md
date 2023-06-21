@@ -98,11 +98,6 @@ When running building, environment variables are loaded from the following files
 
 **Note:** only variables prefixed with `VITE_` are exposed to your code (e.g. `VITE_SOME_KEY=123`) and `SOME_KEY=123` will not.  you can access `VITE_SOME_KEY` using `import.meta.env.VITE_SOME_KEY`. This is because the `.env` files may be used by some users for server-side or build scripts and may contain sensitive information that should not be exposed in code shipped to browsers.
 
-## Author
-
-Roberth Zambrano ([@☆*: .｡. o(≧▽≦)o .｡.:*☆](https://github.com/juniorDeveloper8/juniorDeveloper8))
-
-
 [vite]: https://github.com/vitejs/vite/
 [electron]: https://github.com/electron/electron
 [electron-builder]: https://github.com/electron-userland/electron-builder
